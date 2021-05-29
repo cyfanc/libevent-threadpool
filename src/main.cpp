@@ -2,6 +2,8 @@
 #include <iostream>
 
 using namespace std;
+
+//QPS test
 int g_count = 0; 
 pthread_mutex_t g_mutex = PTHREAD_MUTEX_INITIALIZER; 
 struct timeval g_st;
